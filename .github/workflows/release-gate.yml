@@ -1,8 +1,9 @@
-name: TDS GA7 Release Gate
+name: "TDS GA7 Release Gate"
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
