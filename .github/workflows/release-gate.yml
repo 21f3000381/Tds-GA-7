@@ -25,5 +25,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: TDS identity: 21f3000381@ds.study.iitm.ac.in
+      - name: "TDS identity: 21f3000381@ds.study.iitm.ac.in"
         run: python -m unittest -v test_release_gate.py
